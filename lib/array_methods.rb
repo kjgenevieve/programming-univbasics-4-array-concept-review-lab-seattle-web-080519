@@ -5,6 +5,12 @@
 # and compare each value in the array to the value provided.
 # Remember though, that this is not the value that needs to be returned
 
+array = [1, 2, 3, 4, 5]
+
+array.length.times { |index|
+	puts array[index]
+}
+
 
 def find_element_index(array, value_to_find)
   
