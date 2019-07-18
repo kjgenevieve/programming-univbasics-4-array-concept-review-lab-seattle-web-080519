@@ -9,17 +9,11 @@
 
 
 def find_element_index(array, value_to_find)
-		# if array.include?(value_to_find) == true
-		#   array.index(value_to_find)
-		# else
-		#   puts nil
-		# end
-		
   array.index(value_to_find)
 end
 
 def find_max_value(array)
-  # Add your solution here
+  array.sort.pop
 end
 
 def find_min_value(array)
