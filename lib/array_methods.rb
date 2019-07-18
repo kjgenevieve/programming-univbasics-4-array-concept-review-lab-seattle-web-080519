@@ -5,21 +5,15 @@
 # and compare each value in the array to the value provided.
 # Remember though, that this is not the value that needs to be returned
 
-array = [1, 2, 3, 4, 5]
-
-array.length.times { |index|
-	puts array[index]
-}
 
 
 
 def find_element_index(array, value_to_find)
-  array.length.times { |index|
-	  puts array[index]
-  }
-  # Loop through array to look for value_to_find
-  # If value is found, RETURN ITS index
-  # If not found, return nil
+		if array.include?(value_to_find) == true
+		  #give index of that value
+		else
+		  puts nil
+		end
 end
 
 def find_max_value(array)
