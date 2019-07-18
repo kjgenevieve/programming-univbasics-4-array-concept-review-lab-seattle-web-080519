@@ -12,8 +12,11 @@ array.length.times { |index|
 }
 
 
+
 def find_element_index(array, value_to_find)
-  
+  array.length.times { |index|
+	  puts array[index]
+  }
   # Loop through array to look for value_to_find
   # If value is found, RETURN ITS index
   # If not found, return nil
